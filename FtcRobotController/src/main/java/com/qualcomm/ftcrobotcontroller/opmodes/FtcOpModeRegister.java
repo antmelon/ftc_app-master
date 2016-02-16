@@ -65,6 +65,7 @@ public class FtcOpModeRegister implements OpModeRegister {
     manager.register("BadRightAuto(ignore)", ReallyBadRightAutonomous.class);
     manager.register("BadLeftAuto(ignore)", ReallyBadLeftAutonomous.class);
     manager.register("NewAuto", CommandAuto.class);
+    manager.register("New", new.class);
 
     /*
      * Uncomment any of the following lines if you want to register an op mode.
@@ -81,25 +82,25 @@ public class FtcOpModeRegister implements OpModeRegister {
 
 
     //manager.register("NxtTeleOp", NxtTeleOp.class);
-    
+
     //manager.register("LinearK9TeleOp", LinearK9TeleOp.class);
     //manager.register("LinearIrExample", LinearIrExample.class);
 
-    
+
     //manager.register ("PushBotManual1", PushBotManual1.class);
     //manager.register ("PushBotAutoSensors", PushBotAutoSensors.class);
     //manager.register ("PushBotIrEvent", PushBotIrEvent.class);
-    
+
     //manager.register ("PushBotManualSensors", PushBotManualSensors.class);
     //manager.register ("PushBotOdsDetectEvent", PushBotOdsDetectEvent.class);
     //manager.register ("PushBotOdsFollowEvent", PushBotOdsFollowEvent.class);
-    //manager.register ("PushBotTouchEvent", PushBotTouchEvent.class);    
-    
+    //manager.register ("PushBotTouchEvent", PushBotTouchEvent.class);
+
     //manager.register("PushBotDriveTouch", PushBotDriveTouch.class);
     //manager.register("PushBotIrSeek", PushBotIrSeek.class);
     //manager.register("PushBotSquare", PushBotSquare.class);
 
-    
-    
+
+
   }
 }
