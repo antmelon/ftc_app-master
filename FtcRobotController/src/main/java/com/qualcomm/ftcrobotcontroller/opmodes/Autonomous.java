@@ -22,14 +22,14 @@ public class Autonomous extends OpMode{
     DcMotor rightBack;
 
     public enum possibleStates{
-        driveToRamp,
-        turn,
-        openServos,
-        driveUpRamp
-
+     findBeacon,
+        strafe,
+        centerRobot,
+        findColor,
+        pushButton
     }
 
-    public int state = 1;
+    possibleStates state;
 
     @Override
     public void init(){
@@ -39,6 +39,8 @@ public class Autonomous extends OpMode{
         leftBack = hardwareMap.dcMotor.get("left_back");
         leftFront = hardwareMap.dcMotor.get("left_front");
 
+        state = possibleStates.findBeacon;
+
 
 
 
@@ -46,6 +48,33 @@ public class Autonomous extends OpMode{
 
     @Override
     public void loop(){
+
+        switch (state){
+            case findBeacon:
+
+
+                break;
+
+            case strafe:
+
+
+                break;
+
+            case centerRobot:
+
+
+                break;
+
+            case findColor:
+
+
+                break;
+
+            case pushButton:
+
+                break;
+        }
+
 
     }
 
