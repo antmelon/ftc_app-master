@@ -65,7 +65,7 @@ public class FtcOpModeRegister implements OpModeRegister {
     manager.register("BadRightAuto(ignore)", ReallyBadRightAutonomous.class);
     manager.register("BadLeftAuto(ignore)", ReallyBadLeftAutonomous.class);
     manager.register("NewAuto", CommandAuto.class);
-    manager.register("New", new.class);
+
 
     /*
      * Uncomment any of the following lines if you want to register an op mode.
